@@ -17,8 +17,8 @@ Kafka Graphite Metrics Reporter
 
 重新启动broker
 
-metric.reporters=org.apache.kafka.common.metrics.GraphiteReporter \n
-kafka.metrics.polling.interval.secs=60 (发送metrics到graphited 频率 单位是秒) \n
+metric.reporters=org.apache.kafka.common.metrics.GraphiteReporter 
+kafka.metrics.polling.interval.secs=60 (发送metrics到graphited 频率 单位是秒) 
 kafka.graphite.metrics.reporter.enabled: true (default: false)
 kafka.graphite.metrics.host: 192.168.0.1 (default: localhost)
 kafka.graphite.metrics.port: 2003 (default: 2003)
